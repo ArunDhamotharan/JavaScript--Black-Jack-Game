@@ -1,0 +1,75 @@
+body {
+    background-image: url(images/table.png);
+    background-size: cover;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#message-el {
+    font-size: 50px;
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gold;
+}
+
+input {
+    width: 220px;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid goldenrod;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+input:focus {
+    border-color: #016f32;
+    box-shadow: 0 0 10px rgba(1, 111, 50, 0.5);
+}
+
+#setup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#setup p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+#button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#game {
+    margin-top: 50px;
+}
